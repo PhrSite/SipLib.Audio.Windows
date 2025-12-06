@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>A .NET Audio Class Library For SipLib Windows Applications</Title>
+    <Authors>Philip Reichl</Authors>
+    <Description>A .NET class library for handling audio on a Windows PC for use with the SipLib class library</Description>
+    <Copyright>Copyright (c) 2025 Philip Reichl</Copyright>
+    <PackageProjectUrl>https://phrsite.github.io/SipLib.Audio.Windows</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/phrsite/SipLib.Audio.Windows</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>SipLib;Ng911Lib;Audio;VoIP</PackageTags>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <PackageOutputPath>\_MyProjects\NuGetPackages</PackageOutputPath>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="SipLib" Version="[0.0.4, 5.0)" />
+  </ItemGroup>
+
+</Project>

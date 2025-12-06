@@ -1,0 +1,227 @@
+{
+  "source_base_path": "C:/_MyProjects/SipLib.Audio.Windows/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Audio.Windows.AudioDeviceStateChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Audio.Windows.AudioDeviceStateChangedDelegate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Audio.Windows.AudioDeviceStateChangedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Audio.Windows.AudioDeviceStateChangedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the AudioDeviceStateChanged event of the WindowsAudioIo class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Audio.Windows.AudioInSamplesReadyDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Audio.Windows.AudioInSamplesReadyDelegate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Audio.Windows.AudioInSamplesReadyDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Audio.Windows.AudioInSamplesReadyDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the AudioInSamplesReady event of the WindowsAudioIo class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Audio.Windows.WaveAudioStatusEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Audio.Windows.WaveAudioStatusEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Audio.Windows.WaveAudioStatusEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Audio.Windows.WaveAudioStatusEnum.yml\" sourcestartlinenumber=\"1\">Enumeration for the values returned by the StartAudio method of the WindowsAudioIo class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Audio.Windows.WaveOutDest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Audio.Windows.WaveOutDest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Audio.Windows.WaveOutDest",
+      "Summary": "<p sourcefile=\"api/SipLib.Audio.Windows.WaveOutDest.yml\" sourcestartlinenumber=\"1\">Class that implements the NAudio IWaveProvider interface for the Wave API for the NAudio class library.\nApplications that use class library do not normally need to use this class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Audio.Windows.WindowsAudioIo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Audio.Windows.WindowsAudioIo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Audio.Windows.WindowsAudioIo",
+      "Summary": "<p sourcefile=\"api/SipLib.Audio.Windows.WindowsAudioIo.yml\" sourcestartlinenumber=\"1\">This class uses the Windows Wave API to capture audio from a microphone and to send audio to the speakers or\na headset. It is intended for use with Voice Over IP (VoIP) applications running under Windows.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Audio.Windows.WindowsAudioUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Audio.Windows.WindowsAudioUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Audio.Windows.WindowsAudioUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Audio.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Audio.Windows.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Audio.Windows",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/AudioOutput.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/AudioOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/CapturingAudio.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CapturingAudio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EnumeratingAudioDevices.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EnumeratingAudioDevices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/MonitoringAudioDeviceStatus.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/MonitoringAudioDeviceStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

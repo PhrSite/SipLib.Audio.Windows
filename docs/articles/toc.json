@@ -1,0 +1,2 @@
+
+{"items":[{"name":"Introduction","href":"intro.html","topicHref":"intro.html"},{"name":"Enumerating Audio Devices","href":"EnumeratingAudioDevices.html","topicHref":"EnumeratingAudioDevices.html"},{"name":"Capturing Audio Samples","href":"CapturingAudio.html","topicHref":"CapturingAudio.html"},{"name":"Sending Audio to the Speakers or Headset","href":"AudioOutput.html","topicHref":"AudioOutput.html"},{"name":"Monitoring Audio Device Status","href":"MonitoringAudioDeviceStatus.html","topicHref":"MonitoringAudioDeviceStatus.html"}]}
