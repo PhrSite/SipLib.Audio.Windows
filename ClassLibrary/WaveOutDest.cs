@@ -44,7 +44,7 @@ public class WaveOutDest : IWaveProvider
     //////////////////////////////////////////////////////////////////////////////
 
     /// <summary>
-    /// Called when the WAVE API needs byte to play to the output.
+    /// Called when the WAVE API needs bytes to play to the output.
     /// </summary>
     /// <param name="buffer">Location to put the new sample bytes.</param>
     /// <param name="offset">Offset into buffer for the new sample bytes.</param>

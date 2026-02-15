@@ -1,5 +1,9 @@
 ﻿/////////////////////////////////////////////////////////////////////////////////////
 //  File:   WindowsAudioIo.cs                                       10 Oct 23 PHR
+//
+//  Revised:    12 Feb 26 PHR
+//              -- Changed BufferCount from 5 to 2. This fixes audio dropouts when
+//                 sending buffers to the audio output device.
 /////////////////////////////////////////////////////////////////////////////////////
 
 using NAudio;
@@ -41,7 +45,8 @@ public class WindowsAudioIo : IMMNotificationClient, IAudioSampleSource
 
     private const int BufferMilliseconds = 20;
 
-    private const int BufferCount = 5;
+    //private const int BufferCount = 5;
+    private const int BufferCount = 2;      // 12 Feb 26 PHR -- Fixes audio dropouts
     private const int DesiredLatencyMs = 20;
 
     private const int SendBuffersPerSecond = 50;
@@ -352,10 +357,16 @@ public class WindowsAudioIo : IMMNotificationClient, IAudioSampleSource
         
     }
 
+    /// <summary>
+    /// Do not use. Call StartAudio() instead
+    /// </summary>
     public void Start()
     {   // No action required
     }
 
+    /// <summary>
+    /// Do not use. Call StopAudio() instead
+    /// </summary>
     public void Stop()
     {   // No action required
     }

@@ -13,11 +13,12 @@
     <RepositoryUrl>https://github.com/phrsite/SipLib.Audio.Windows</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>SipLib;Ng911Lib;Audio;VoIP</PackageTags>
-    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <PackageReleaseNotes>Minor change to fix audio output dropouts. See VersionHistory.md</PackageReleaseNotes>
     <PackageOutputPath>\_MyProjects\NuGetPackages</PackageOutputPath>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
